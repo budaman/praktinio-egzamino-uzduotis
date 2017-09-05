@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#root {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  justify-content: center;
+
+}
+
+.loginForm {
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeButton {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs textarea {
+  width: 170px;
+}
+
+.inputs input {
+  margin-bottom: 7px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sukurti {
+  background-color: #003049;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.warning {
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  color: #FF5964;
+}
+
+.create-task {
+    background-color: #FF5964;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 3px;
+    width: 100px;
+}
+
+.task-con {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  width: 40vw;
+  min-width: 250px;
+}
+
+
+.task-title {
+  display: flex;
+  justify-content: center;
+  background-color: #0bcdfe;
+  padding: 5px 0;
+  color:  white;
+}
+
+.email {
+  font-size: 0.6rem;
+  background-color: #CAD8DE;
+  color: white;
+}
+
+.email p {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.atsiliepimai {
+  letter-spacing: 2px;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+.task-text {
+    background-color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.email {
+  display: flex;
+  justify-content: space-around;
+}
